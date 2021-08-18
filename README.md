@@ -1,0 +1,2 @@
+# QuiICDManagerModule
+ C++/Qt
