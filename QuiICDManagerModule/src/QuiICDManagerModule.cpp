@@ -3,7 +3,7 @@
 
 CQuiICDManagerModule::CQuiICDManagerModule(QWidget *parent)
     : QWidget(parent)
-	,ui(new Ui::QuiICDManagerModuleClass)
+	,ui(new Ui::QuiICDManagerModule)
 {
     ui->setupUi(this);
 }

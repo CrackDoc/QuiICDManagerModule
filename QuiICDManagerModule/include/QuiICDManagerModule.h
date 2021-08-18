@@ -5,9 +5,10 @@
 #include "IQuiICDManagerModule.h"
 #include <QtWidgets/QWidget>
 #include "PublicMarco.h"
+
 namespace Ui
 {
-	class QuiICDManagerModuleClass;
+	class QuiICDManagerModule;
 }
 class CQuiICDManagerModule : public QWidget,public IQuiICDManagerModule
 {
@@ -72,7 +73,7 @@ public:
 	*/
 	virtual bool Uninitialise();
 private:
-    Ui::QuiICDManagerModuleClass *ui;
+    Ui::QuiICDManagerModule *ui;
 };
 DECLARE_MODULE(QuiICDManager, extern)
 #endif // QuiICDManagerModule_h__
